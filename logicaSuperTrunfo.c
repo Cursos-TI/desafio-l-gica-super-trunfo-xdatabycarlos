@@ -1101,12 +1101,12 @@ int main (){
        
         printf("Seja bem-vindo %s, vamos explicar o fluxo do jogo: \n", nome_jogador1);
 
-        printf("\nO jogo terá 5 etapas: \n");
+        printf("\nO jogo terá 4 etapas: \n");
         
         printf("1ª Cadastro dos atributos da carta do jogador 1, (Você).\n");
         printf("2ª Exibição dos Atributos da Carta do Sergio Cardoso.\n");
         printf("3ª O jogador escolhe os atributos para batalhar\n");
-        printf("5ª A batalha acontece e são exibidos os resultados\n\n");
+        printf("4ª A batalha acontece e são exibidos os resultados\n\n");
 
         printf("1. Cada carta representa uma cidade.\n");
         printf("2. Cada cidade possui atributos:\n");
