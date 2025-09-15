@@ -1190,6 +1190,20 @@ int main (){
         double pib_percapita_pc;
         double superpoder_pc;
 
+
+        /*
+        
+        Lógica da geração de dados do PC:
+
+        1) Para garantir uma maior aleatoriedade, utilizamos srand(time(0) * getpid()), 
+       onde time(0) fornece o tempo atual e getpid() retorna o identificador único 
+       do processo em execução.
+
+        2) Para as variáveis de população, área, PIB e pontos turísticos, estabelecemos 
+       uma variação percentual aleatória no intervalo de -50% até +50% do valor original.
+            
+        */
+
         // Para gerar os valores de atributos do Computador
         srand(time(0) * getpid());
 
